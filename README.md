@@ -20,6 +20,7 @@
 ![下载解压后文件夹内包含以下文件](https://upload-images.jianshu.io/upload_images/5443336-263163bf26cd72df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   以前使用需要申请appkey集成，现在已不需要。直接将上述红框内的jar包放到自己的工程中，可以改下名字，默认的名字太长。
+  
 2) 第二步：控件使用
 
 * 如果是在老项目中切换使用WebView，在切换到x5可以直接全局更改包名即可，注意不止要在类里面改，xml中的文件也一定要改。
@@ -66,6 +67,7 @@ x5当前不提供64位so文件，但我们可以用下述方式解决该问题
 
 
 ######     可以看到，在切换到x5后，最大的改变就是首次加载页面的速度有大幅度提升，加载时长相比原生快很多。其它时候的加载速度则是有一定的提升，但还无法满足我们的优化需求。
+
 ###4、其它
 * 去除QQ浏览器推广
  ```
@@ -81,6 +83,7 @@ getWindow().getDecorView().addOnLayoutChangeListener(new View.OnLayoutChangeList
              }
           });
 ```
+
 
 
 ###5、结语
