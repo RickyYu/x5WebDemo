@@ -67,9 +67,9 @@ x5当前不提供64位so文件，但我们可以用下述方式解决该问题
 >![x5内核-网易严选加载消耗时长](https://upload-images.jianshu.io/upload_images/5443336-f43068ae816b5111.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-######     可以看到，在切换到x5后，最大的改变就是首次加载页面的速度有大幅度提升，加载时长相比原生快很多。其它时候的加载速度则是有一定的提升，但还无法满足我们的优化需求。
+##### 可以看到，在切换到x5后，最大的改变就是首次加载页面的速度有大幅度提升，加载时长相比原生快很多。其它时候的加载速度则是有一定的提升，但还无法满足我们的优化需求。
 
-###4、其它
+### 4、其它
 * 去除QQ浏览器推广
  ```
 getWindow().getDecorView().addOnLayoutChangeListener(new View.OnLayoutChangeListener() {
@@ -87,5 +87,5 @@ getWindow().getDecorView().addOnLayoutChangeListener(new View.OnLayoutChangeList
 
 
 
-###5、结语
+### 5、结语
   实际测试感受，移动端优化加载有限, 若想完美优化web加载速度，提升交互体验。更多还需和前端同学一起配合测试共同优化。
