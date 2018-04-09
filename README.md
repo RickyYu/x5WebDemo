@@ -32,6 +32,7 @@
 
 
 为了防止遗漏，官方也提供脚本checkqbsdk.sh[点击下载](http://res.imtt.qq.com/TES/checkqbsdk.zip)用于扫描确保替换的完整性，windows 上使用TBSSdk接入扫描工具.exe [点击下载](http://res.imtt.qq.com/TES/TBSSdk_windows.zip) 进行扫描。脚本放在所有源码顶级目录即可。
+
 3) 第三步：配置相关
 x5当前不提供64位so文件，但我们可以用下述方式解决该问题
 * 打开对应module的build.gradle文件，添加defaultConfig()配置，该操作配置后编译如果报错，则在gradle.properties文件中加上Android.useDeprecatedNdk=true
